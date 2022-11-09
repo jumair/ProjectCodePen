@@ -40,7 +40,7 @@ body {
     margin-left: -14px;
 }
 
-/* Links-wrapper */
+/* Links-wrapper styles */
 .links-wrapper {
     display: flex;
     justify-content: space-between;
@@ -67,10 +67,9 @@ body {
 
 /* Spark-column styles */
 .navigation-wrapper > .spark-column {
-    display: flex;
     color: #99A3A4;
+    display: flex;
     padding-top: 47px;
-    
     margin-left: -200px;
 }
 
@@ -79,16 +78,12 @@ body {
     padding-right: 10px;
 }
 
-.navigation-wrapper > .spark-column > .spark:hover {
+.navigation-wrapper > .spark-column:hover {
     color: white;
 }
 
 .navigation-wrapper > .spark-column > .down-chevron {
     padding-top: 4px;
-}
-
-.navigation-wrapper > .spark-column > .down-chevron:hover {
-    color: white;
 }
 
 /* Buttons-column styles */
@@ -101,8 +96,8 @@ body {
 }
 
 .navigation-wrapper > .buttons-column > .buttons-wrapper > .button-down {
-    display: flex;
     background-color: #424949;
+    display: flex;
     text-align: center;
     padding: 0px 20px;
     border-radius: 3px;
@@ -130,8 +125,8 @@ body {
 }
 
 .navigation-wrapper > .buttons-column > .buttons-wrapper > .button-search {
-    font-size: 2.5em;
     color: #616A6B;
+    font-size: 2.5em;
 }
 
 .navigation-wrapper > .buttons-column > .buttons-wrapper > .button-search:hover {
@@ -140,15 +135,15 @@ body {
 
 /* Page-wrapper styles */
 .page-wrapper {
+    background: -prefix-linear-gradient(right, black, #616A6B);
+    background: linear-gradient(to left, black, #616A6B);
+    color: #99A3A4;
+    font-family: sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 455px;
     padding-left: 50px;
     padding-top: 40px;
-    background: -prefix-linear-gradient(right, black, #616A6B);
-    background: linear-gradient(to left, black, #616A6B);
-    color: #99A3A4;
-    font-family: sans-serif;
 }
 
 .page-wrapper > .page-wrapper-left {
@@ -204,11 +199,11 @@ body {
 }
 
 .page-wrapper > .page-wrapper-left > .left-text-down > .learn {
-    margin-left: 20px;
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px 20px;
+    margin-left: 20px;
     border-radius: 3px;
 }
 
@@ -223,12 +218,12 @@ body {
 }
 
 .page-wrapper > .page-wrapper-right > .right-text {
+    color: white;
     display: flex;
     margin-top: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
     font-size: 1.2em;
-    color: white;
     font-weight: bold;
 }
 
@@ -247,15 +242,15 @@ body {
 
 /* Footer styles */
 .footer {
+    background-color: #424949;
     display: flex;
     justify-content: space-evenly;
-    background-color: #424949;
 }
 
 .footer > .square {
+    color: white;
     width: 100%;
     border: 2px solid #99A3A4;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
