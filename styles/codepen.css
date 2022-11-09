@@ -257,7 +257,6 @@ body {
     background-color: #424949;
     display: flex;
     justify-content: space-evenly;
-    margin-right: -1px;
 }
 
 .footer > .square {
