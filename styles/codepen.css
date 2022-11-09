@@ -73,13 +73,13 @@ body {
     margin-left: -200px;
 }
 
+.navigation-wrapper > .spark-column:hover {
+    color: white;
+}
+
 .navigation-wrapper > .spark-column > .spark {
     font-size: 1.2em;
     padding-right: 10px;
-}
-
-.navigation-wrapper > .spark-column:hover {
-    color: white;
 }
 
 .navigation-wrapper > .spark-column > .down-chevron {
